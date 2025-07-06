@@ -1,0 +1,6 @@
+Endpoint;Requests;Fails;Avg Latency (ms);Min (ms);Max (ms);Median (ms);Req/s;Error Rate (%);Mechanism
+APIKey /auth-apikey;57781;0;3.065;0.927;90.616;1.0;484.9;0.0;API Key
+JWT /auth-jwt-rs256;56673;0;31.369;2.164;1.237.668;3.0;475.42;0.0;JWT
+POST /login-rs;1000;0;649.047;105.056;1.300.347;650.0;8.389;0.0;JWT
+GET /api/profile;57002;0;3.064;0.927;90.616;1.0;475.42;0.0;OAuth2
+POST /oauth/token;1000;0;6.35;2.157;20.425;5.0;8.388;0.0;OAuth2
